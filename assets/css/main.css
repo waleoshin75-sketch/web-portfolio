@@ -4688,7 +4688,7 @@ input, select, textarea {
 
 	}
 
-/* Expand contact section full-width and add elegant row lines */
+/* Expand contact section and pack items tightly together */
 footer#footer section.contact {
     width: 100% !important;
     max-width: 100% !important;
@@ -4696,7 +4696,7 @@ footer#footer section.contact {
 
 footer#footer section.contact section {
     border-top: solid 1px rgba(0, 0, 0, 0.1);
-    padding: 2.5rem 0 !important;
+    padding: 0.8rem 0 !important;
     width: 100% !important;
 }
 
@@ -4704,3 +4704,16 @@ footer#footer section.contact section:first-of-type {
     border-top: none;
     padding-top: 0 !important;
 }
+
+/* Tighten the spaces around headers and text labels */
+footer#footer section.contact h3 {
+    margin: 0 0 0.2rem 0 !important;
+    font-size: 0.8rem !important;
+}
+
+footer#footer section.contact p,
+footer#footer section.contact ul.icons {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+

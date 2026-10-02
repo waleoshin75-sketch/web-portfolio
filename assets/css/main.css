@@ -4687,3 +4687,20 @@ input, select, textarea {
 		}
 
 	}
+
+/* Expand contact section full-width and add elegant row lines */
+footer#footer section.contact {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+footer#footer section.contact section {
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem 0 !important;
+    width: 100% !important;
+}
+
+footer#footer section.contact section:first-of-type {
+    border-top: none;
+    padding-top: 0 !important;
+}
